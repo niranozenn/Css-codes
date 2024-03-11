@@ -1,0 +1,18 @@
+/* tag ile kullanım
+p{
+    background-color: black;
+}
+id ile
+#parag_id{
+    background-color: orange;
+}
+class ile
+.parag_class{
+    background-color: yellow;
+} */
+#parag_id{
+    color: red;
+    background-color: blue !important;
+    background-color: black;
+
+}
