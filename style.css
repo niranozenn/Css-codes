@@ -19,3 +19,15 @@ class ile
     margin:110px 115px 125px 112px;
 
 }
+/* border border-radius */
+#div_id{
+    background-color: black;
+    color: yellow;
+    padding: 25px;
+    margin: 20px;
+    border-width: 20px;
+    border-style: solid;
+    border-color: blue;
+    border: 20px solid blue;
+    border-radius: 20px;
+}
