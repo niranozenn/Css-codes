@@ -48,6 +48,25 @@ class ile
     text-shadow: 2px 3px 4px yellow;
         
       }
-      
-      
+/* coulumn count */
+.column-container{
+    column-count: 3;
+    column-gap: 20px;
+    column-rule: 1px solid red;
+}
+
+/* line clamp */
+.line-clamp4{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* number of lines to show */
+    -webkit-box-orient: vertical;
+/* for other browsers */
+    display: -moz-box;
+    -moz-line-clamp: 4; /* number of lines to show */
+    -moz-box-orient: vertical;
+
+
+
 }
