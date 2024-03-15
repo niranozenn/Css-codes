@@ -192,3 +192,27 @@ body{
     background-size: cover;
     /* object-fit: cover; */
 }
+
+/*header*/
+
+header{
+    background-image: url(./img/3.png);
+    background-position: center;
+    background-size: cover;
+    height: 75vh;/*viewport tarayıcının sağladığı kullanıcı görebildiği alan*/
+    width: 100%;
+    padding: 22px;
+    text-align: center;
+
+}
+#linear_gradient{
+    background: linear-gradient(to right, #820cc7, yellow);
+    background-position: center;
+    background-size: cover;
+    height: 75vh;/*viewport tarayıcının sağladığı kullanıcı görebildiği alan*/
+    width: 100%;
+    padding: 22px;
+
+
+
+}
