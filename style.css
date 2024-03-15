@@ -93,3 +93,24 @@ class ile
     color: blue;
     cursor: move;
 }
+/* <!-- transition-transform-boxshadow --> */
+
+.transition_transform{
+    background-color: blue;
+    color: black;
+    width:75%;
+    height:100px;
+    padding: 10px;
+    transition: width 3s ease-in-out 3s, background-color 0.5s linear;
+    transition: 3s all;
+    box-shadow: 1pc 2px 4px 1px rgba(0,0,0,0.5);
+}
+.transition_transform:hover{
+    background-color: black;
+    color: blue;
+    width:100%;
+    transform: rotate(15deg);
+    transform: scale(1.5);
+
+
+}
