@@ -66,7 +66,30 @@ class ile
     display: -moz-box;
     -moz-line-clamp: 4; /* number of lines to show */
     -moz-box-orient: vertical;
+}
+/* Link */
+#miuul_a{
+    color: red;
+    text-decoration: none;
+    background-color: blue!important;
+    background-color: black;
+}
+#miuul_a:hover{
+    color: black;
+    text-decoration: none;
+    background-color: blue!important;
+    background-color: black;
+}
 
-
-
+.width_height{
+    background-color: blue;
+    margin-top: 5px;
+    width: 70%;
+    height: 50px;
+}
+/* hover üzerine gelince demek */
+.width_height:hover{
+    background-color: white;
+    color: blue;
+    cursor: move;
 }
