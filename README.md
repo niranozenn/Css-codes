@@ -1,1 +1,2 @@
 Readme
+##CSS ÇALIŞMA NOTLARIM
