@@ -112,11 +112,13 @@ class ile
     transform: rotate(15deg);
     transform: scale(1.5);
 }
+
 /* width 200 px yapmak için */
 *{
     box-sizing: border-box;
 
 }
+
 /* display */
 .display{
     /* 
@@ -170,6 +172,7 @@ class ile
 .custom-table tbody tr:nth-child(even){
     background-color: blueviolet;
 }
+
 /*rem= html em = body calc= hesaplama*/
 body{
     font-size: 32px;
@@ -184,6 +187,7 @@ body{
     font-size: calc(1em + 5px);
 
 } 
+
 /* image */
 #image_id{
     background-image: url("./img/5.png");
@@ -212,7 +216,4 @@ header{
     height: 75vh;/*viewport tarayıcının sağladığı kullanıcı görebildiği alan*/
     width: 100%;
     padding: 22px;
-
-
-
 }
