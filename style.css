@@ -217,3 +217,22 @@ header{
     width: 100%;
     padding: 22px;
 }
+
+/* float_ex */
+.floar_ex{
+    float: left;
+    margin-left: 10px;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* clear_path_id */
+#clear_path_id{
+    background-color: yellow;
+    min-height: 300px;
+    max-width: 100%;
+    clip-path:polygon(0 0, 100% 0 ,100% 100%, 0 50%)
+}
